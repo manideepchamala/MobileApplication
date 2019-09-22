@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <title>CALCI</title>
+</head>
+<body>
+    <div align="center">
+    <br><br>
+    <h1>Maitre D</h1>
+    <br>
+    <main>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <fieldset>
+                        <label>Total: $</label>
+                        <input id="EnterTotal" type="text"  value="" placeholder="0.00">
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td>
+                     <label>Tip: <span id="Tip">$0.00</span></label>
+                </td>
+                <td>
+                    <fieldset>
+                        <label>Rate: </label>
+                        <input id="TAX" type="text"  value="" placeholder="0.0%">
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Tax: <span id="Result">$0.00</span></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Grand Total: <span id="GrandResult">$0.00</span></label>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <section>
+            <button id="Execute">Calculate</button>
+        </section>
+    </main>
+    <script src="mobile.js"></script>
+    </div>
+</body>
+</html>
